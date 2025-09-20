@@ -42,7 +42,7 @@ var saxony_adjustment_factors = {
     kvp: 1.3,
     dnf: 0.3
 };
-}
+};
 if riggedelections == 0 {
 var saxony_adjustment_factors = {
     spd: 1.25,
@@ -58,7 +58,7 @@ var saxony_adjustment_factors = {
     kvp: 1.3,
     dnf: 0.3
 };
-}
+};
 Q.spd_r_saxony = 0;
 Q.sapd_r_saxony = 0;
 Q.kpd_r_saxony = 0;
