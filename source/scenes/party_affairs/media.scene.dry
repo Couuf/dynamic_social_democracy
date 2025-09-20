@@ -17,7 +17,6 @@ The <span style="color: #c00000;">**SPD**</span> runs a veritable media empire, 
 - @radio
 - @radio_2
 - @radio_3
-- @radio_4
 - @return: We should not do anything with media at the moment.
 - @easy_discard
 - @cancel_advisor_action
