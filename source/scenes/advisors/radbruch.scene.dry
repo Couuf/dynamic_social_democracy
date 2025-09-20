@@ -12,6 +12,7 @@ Gustav Radbruch is a renowned legal scholar and long-time <span style="color: #c
 
 - @judiciary_major
 - @judiciary_minor
+- @rig_elections
 - @constitutional_reform_
 - @root: Return to main
 
@@ -31,6 +32,13 @@ choose-if: advisor_action_timer = 0 and spd_in_government and justice_minister_p
 unavailable-subtitle: [? if advisor_action_timer > 0 : [+ advisor_action_timer +] months before next advisor action. ?][? if not spd_in_government : The <span style="color: #c00000;">SPD</span> is not currently in government. ?][? if justice_minister_party != "SPD" : We do not have the Justice Ministry. ?]
 on-arrival: advisor_action_timer = 6;
 go-to: judiciary.minor_reforms
+
+@rig_elections
+title: "Campaign" in local elections
+subtitle: Put in more effort to secure positive results in Landtag elections
+choose-if: 1==1
+unavailable-subtitle: shouldn't be visible
+on-arrival: riggedelections = 1
 
 
 @constitutional_reform_
