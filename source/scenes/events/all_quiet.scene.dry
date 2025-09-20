@@ -40,7 +40,7 @@ Under the protection of the police, the people are allowed to watch the film in 
 @everyone
 choose-if: prussian_police_loyalty >= 0.75 and prussia_leader = "Braun" or prussia_leader = "Rosenfeld"
 unavailable-subtitle: [? if prussian_police_loyalty < 0.75: The police are unable to guarantee the safety of all the attendees. ?] [? if not prussia_leader = "Braun" and not prussia_leader = "Rosenfeld": Our coalition partners restrain us from this action. ?]
-on-arrival: nationalism -= 5; pro_republic += 5*(1-dissent); workers_nsdap -= 3; unemployed_nsdap -= 3; new_middle_nsdap -= 3
+on-arrival: nationalism -= 5; pro_republic += 5*(1-dissent); workers_nsdap -= 5; unemployed_nsdap -= 6; new_middle_nsdap -= 6; new_middle_spd *= 1.5; workers_spd += 5
 
 Under police protection, crowds throng the film's showings, as <span style="color: #7A3C00;">Nazis</span> protest outside. The reception is mixed, but a new national conversation develops, reexamining the right-wing histories of the war. Quietly, many minds are changed, or at least affected in subtle ways.
 
