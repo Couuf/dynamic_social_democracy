@@ -29,7 +29,7 @@ The Saxon state elections are to be held now.
 on-arrival: {!
 
 var saxony_adjustment_factors = {
-    spd: 1.27,
+    spd: 1.9,
     sapd: 1.0,
     kpd: 1.2,
     ddp: 1.0,
@@ -37,7 +37,7 @@ var saxony_adjustment_factors = {
     z: 0.0,
     dvp: 1.7,
     dnvp: 0.55,
-    nsdap: 1.0,
+    nsdap: 1.4,
     other: 1.65,
     kvp: 1.3,
     dnf: 0.3
