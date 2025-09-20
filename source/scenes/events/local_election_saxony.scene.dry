@@ -27,9 +27,9 @@ The Saxon state elections are to be held now.
 
 @saxony
 on-arrival: {!
-if riggedelections { 
+
 var saxony_adjustment_factors = {
-    spd: 1.9,
+    spd: 1.85,
     sapd: 1.0,
     kpd: 1.25,
     ddp: 1.0,
@@ -42,23 +42,7 @@ var saxony_adjustment_factors = {
     kvp: 1.3,
     dnf: 0.3
 };
-};
-if riggedelections == 0 {
-var saxony_adjustment_factors = {
-    spd: 1.25,
-    sapd: 1.0,
-    kpd: 1.25,
-    ddp: 1.0,
-    lvp: 1.5,
-    z: 0.06,
-    dvp: 1.6,
-    dnvp: 0.6,
-    nsdap: 1.0,
-    other: 1.3,
-    kvp: 1.3,
-    dnf: 0.3
-};
-};
+
 Q.spd_r_saxony = 0;
 Q.sapd_r_saxony = 0;
 Q.kpd_r_saxony = 0;
