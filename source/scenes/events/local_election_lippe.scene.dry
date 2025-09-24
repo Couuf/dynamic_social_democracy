@@ -37,7 +37,7 @@ var lippe_adjustment_factors = {
     z: 0.17,
     dvp: 2.1,
     dnvp: 0.8,
-    nsdap: 1.2,
+    nsdap: 0.7,
     other: 1.5,
     kvp: 1.2,
     dnf: 0.6
